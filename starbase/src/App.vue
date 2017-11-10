@@ -16,7 +16,7 @@ export default {
   },
     methods: {
         fetchCharacter() {
-            fetch('http://swapi.co/api/people', {
+            fetch('https://swapi.co/api/people', {
                 method: 'GET'
             }).then(response => console.log(response))
         }
